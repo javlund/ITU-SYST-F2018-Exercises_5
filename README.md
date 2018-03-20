@@ -1,1 +1,3 @@
-# ITU-SYST-F2018-Exercises_5
+# ITU-SYST-F2018
+
+Øvelsesløsning for Grundlæggende JavaScript

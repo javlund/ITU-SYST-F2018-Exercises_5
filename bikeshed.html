@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Cykelskur</title>
+  </head>
+  <body>
+    <form onsubmit="addBike(event)">
+      <fieldset>
+        <legend>Cykelskuret</legend>
+        <p>Navn
+          <input placeholder="Navn" id="navn" autofocus />
+          <span id="fejl" style="color: red;"></span>
+        </p>
+        <p>Antal gear
+          <select id="gear">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="7">7</option>
+          </select>
+        </p>
+        <button>Tilføj cykel</button>
+      </fieldset>
+    </form>
+    <ul id="cykelListe"></ul>
+    <script type="text/javascript" src="bikeshed.js"></script>
+  </body>
+</html>
